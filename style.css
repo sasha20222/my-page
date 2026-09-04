@@ -1,0 +1,27 @@
+ body {
+        font-family:
+          Verdana,
+          Geneva,
+          Tahoma,
+          sans-serif sans-serif;
+        background-color: #41424c;
+        margin: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 700px;
+      }
+      h1 {
+        color: #f000f0;
+      }
+      h2 {
+        color: #f000f0;
+      }
+      ul {
+        color: #f000f0;
+      }
+      p {
+        color: #f000f0;
+      }
+      a {
+        color: #f000f0;
+      }
