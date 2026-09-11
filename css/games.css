@@ -42,3 +42,19 @@ text-shadow: 0 0 12px }
   text-align: center;
   text-shadow: 0 0 12px #00ff00;
 }      
+.shot {
+background: #111;
+color: rgb(228, 247, 228);
+padding: 14px 28px;
+position: relative;
+top: 50%;
+z-index: 1;
+}
+.sticker {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  background: #111;
+  padding: 16px;
+  color: rgb(228, 247, 228);
+}
