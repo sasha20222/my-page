@@ -48,8 +48,8 @@ position: relative;
 z-index: 1;
 }
 .sticker {
-  top: 18px;
-  right: -8px;
+  top: 240px;
+  right: 99px;
   transform: rotate(14deg);
   color: lime;
   border: 2px solid lime;
