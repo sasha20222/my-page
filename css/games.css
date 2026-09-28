@@ -36,8 +36,23 @@ color: #682222;
 }
 .mark { color: #00ff00; font-size: 24px; text-align: center; 
 text-shadow: 0 0 12px }
-.row{ border: 2px solid #00ff00; padding: 16px; }
-.gallery { border: 2px solid #00ff00; padding: 16px; }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid #00ff00;
+  padding: 16px;
+  margin-top: 24px;
+}
+ .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  border: 2px solid #00ff00;
+  padding: 24px;
+}
 .head {
   border-bottom: 2px solid lime;
   padding-bottom: 16px;
