@@ -81,3 +81,12 @@ z-index: 1;
   rotate: right 8px;
   position: absolute;
 }
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px;
+  border-bottom: 2px solid lime;
+  margin-bottom: 24px;
+}
