@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клікер Сашка</title>
+    <link rel="stylesheet" href="css/games.css" />
+  </head>
+  <body>
+    <!-- Наша спільна шапка: -->
+    <div class="nav">
+      <a class="btn" href="index.html">🏠 Головна</a>
+      <a class="btn" href="games.html">🎮 Ігри</a>
+      <a class="btn" href="hobby.html">🚛 ETS2</a>
+      <a class="btn" href="clicker.html">🪙 Клікер</a>
+    </div>
+
+    <h1>Клікер Сашка</h1>
+
+    <!-- Табло очок: -->
+    <div class="scoreboard">🪙 Рахунок: <span id="score">0</span></div>
+
+    <!-- Велика ігрова кнопка (Щоденник): -->
+    <div style="text-align: center; margin: 30px 0">
+      <img
+        class="pic"
+        src="images/shodenyk.png"
+        onclick="tap()"
+        alt="Clicker target"
+        width="280"
+        height="280"
+      />
+    </div>
+
+    <p style="text-align: center; color: #85fd85">
+      Тапай по Щоденнику, щоб заробляти очки!
+    </p>
+
+    <!-- Твій улюблений звук: -->
+    <audio id="text" src="./text.mp3"></audio>
+
+    <!-- Підключаємо окремий скрипт з мізками: -->
+    <script src="js/clicker.js"></script>
+  </body>
+</html>

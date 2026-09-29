@@ -90,3 +90,11 @@ z-index: 1;
   border-bottom: 2px solid lime;
   margin-bottom: 24px;
 }
+.scoreboard {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 42px;
+  font-weight: bold;
+  color: #00ff00;
+  text-shadow: 0 0 25px #00ff00;
+}
