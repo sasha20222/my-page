@@ -12,3 +12,8 @@ function tap() {
   // граємо твій звук text.mp3:
   document.getElementById('text').play();
 }
+// 3. Команда для скидання рахунку:
+function reset() {
+  score = 0; // обнуляємо змінну в памʼяті
+  document.getElementById('score').innerText = score; // оновлюємо табло на екрані
+}
