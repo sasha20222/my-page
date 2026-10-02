@@ -1,9 +1,10 @@
 body {
 	background: #111;
 	color: white;
-	background-image: url('../images/night.png');
+	background-image: url('../images/night.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
+  height: 100vh;
 }
 h1 { color: #00ff00; font-size: 60px; text-shadow: 0 0 80px green, 0 0 90px green, 0 0 60px green; transition: 0.3s; text-align: center; }
 p { color: #85fd85; font-size: 24px; text-align: center;}
